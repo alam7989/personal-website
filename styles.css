@@ -1,7 +1,60 @@
-/* Center-align text in intro for small screens */
-@media screen and (max-width: 768) {
-    #intro_text {
-      justify-content: center;
-      text-align: center;
-    }
+/* intro */
+#intro_text {
+  justify-content: center;
+  text-align: left;
+}
+
+#intro_image {
+  width: 30vw;
+}
+
+#introduction{
+  text-align: center;
+}
+
+.logo_link{
+  width: 5vw;
+  max-width: 40px;
+}
+
+#logo_links {
+  text-align: left;
+}
+
+.logo_link {
+  margin: 10px; /* Add some spacing between logo links if needed */
+  text-decoration: none;
+}
+
+/* Extra small devices (portrait phones, less than 576px)
+No media query for `xs` since this is the default in Bootstrap*/
+
+/* Small devices (landscape phones, 576px and under)*/
+@media (max-width: 576px) {
+
+}
+
+/* Medium devices (tablets, 768px and under)*/
+@media (max-width: 768px) {
+    /* Center-align text in intro for small screens */
+  #intro_text {
+    text-align: center;
   }
+
+  #intro_image {
+    width: 50vw;
+  }
+
+  #logo_links {
+    text-align: center;
+  }
+}
+
+/* Large devices (desktops, 992px and under)*/
+@media (max-width: 992px) {
+}
+
+/* Extra large devices (large desktops, 1200px and under)*/
+@media (max-width: 1200px) {
+
+}
