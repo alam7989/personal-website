@@ -1,0 +1,7 @@
+/* Center-align text in intro for small screens */
+@media screen and (max-width: 768) {
+    #intro_text {
+      justify-content: center;
+      text-align: center;
+    }
+  }
