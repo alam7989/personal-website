@@ -15,15 +15,16 @@
 .logo_link{
   width: 5vw;
   max-width: 40px;
+  margin: 10px; /* Add some spacing between logo links if needed */
+  text-decoration: none;
+}
+
+.logo_link:hover{
+  box-shadow: 0px 5px 10px 5px rgb(255, 255, 255);
 }
 
 #logo_links {
   text-align: left;
-}
-
-.logo_link {
-  margin: 10px; /* Add some spacing between logo links if needed */
-  text-decoration: none;
 }
 
 #resume_embed{
