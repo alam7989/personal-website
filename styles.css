@@ -32,6 +32,17 @@
   height: 100vh;
 }
 
+/* projects */
+
+.card {
+  width: 25vw;
+  margin: 3vw;
+}
+
+.btn btn-outline {
+  outline-color: #a3cdf2;
+}
+
 /* Extra small devices (portrait phones, less than 576px)
 No media query for `xs` since this is the default in Bootstrap*/
 
