@@ -51,7 +51,31 @@ body {
 
 /* projects */
 
-#card_container{
+#card_container1{
+  width: 45vw;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  /*align-items: center;*/
+}
+
+#card_container2{
+  width: 45vw;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  /*align-items: center;*/
+}
+
+#card_container3{
+  width: 45vw;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  /*align-items: center;*/
+}
+
+#card_container4{
   width: 45vw;
   height: 60vh;
   display: flex;
@@ -104,7 +128,22 @@ body {
   object-fit: contain;
 }
 
-#card_container:hover > .card{ /* hover over the container -> effects happen to .card (more smooth)*/
+#card_container1:hover > .card{ /* hover over the container -> effects happen to .card (more smooth)*/
+  cursor: pointer;
+  transform: rotateY(180deg);
+}
+
+#card_container2:hover > .card{ /* hover over the container -> effects happen to .card (more smooth)*/
+  cursor: pointer;
+  transform: rotateY(180deg);
+}
+
+#card_container3:hover > .card{ /* hover over the container -> effects happen to .card (more smooth)*/
+  cursor: pointer;
+  transform: rotateY(180deg);
+}
+
+#card_container4:hover > .card{ /* hover over the container -> effects happen to .card (more smooth)*/
   cursor: pointer;
   transform: rotateY(180deg);
 }
@@ -133,12 +172,36 @@ No media query for `xs` since this is the default in Bootstrap*/
     text-align: center;
   }
 
-  #card_container{
+  #card_container1{
     width: 80vw;
     height: 65vh;
     display: flex;
     justify-content: center;
     margin-top: 3vh;
+  }
+
+  #card_container2{
+    width: 45vw;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    /*align-items: center;*/
+  }
+
+  #card_container3{
+    width: 45vw;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    /*align-items: center;*/
+  }
+
+  #card_container4{
+    width: 45vw;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    /*align-items: center;*/
   }
 }
 
