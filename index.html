@@ -55,7 +55,6 @@ https://www.youtube.com/watch?v=4sosXZsdy-s
     </div>
   </nav>
 
-
   <!-- introduction -->
   <section id="introduction" class="text-dark" style="background-color: #E9E9E9; padding-top: 10vh;">
     <div class="container">
@@ -63,7 +62,10 @@ https://www.youtube.com/watch?v=4sosXZsdy-s
         <img id="intro_image" class="img-fluid p-3" src="images/circle_profile_pic.png" alt="profile_picture"/>
         <div id="intro_text" class="align-self-center d-md-flex flex-column" style="padding-left: 5vw; padding-top: 5vh;">
           <h1>Hi, I'm Audrey Lam.</h1>
-          <p>I'm a Junior studying Computer Science at the University of California, Irvine.</p>
+          <p>
+            I'm a Junior studying at the University of California, Irvine.
+            <br> I plan to graduate in June 2025, with major in Computer Science, and specialization in Intelligent Systems.
+          </p>
           <div id="logo_links">
             <a href="https://www.linkedin.com/in/audrey-lam/" style="text-decoration: none;">
               <img class="logo_link" src="images/linkedin_icon.svg" alt="linked_logo"/>
@@ -77,81 +79,110 @@ https://www.youtube.com/watch?v=4sosXZsdy-s
     </div>
   </section> 
 
-  <!-- general information -->
-  <section id="about">
-    <p>
-      I am specializing in Intelligent Systems. <br>
-      I find AI and ML interesting because ----------- 
-    </p>
-
-    <p>
-      I am currently looking for a Software Engineering Intern position.
-    </p>
-
-    <p>
-      I am from Northern California. In my free time, I enjoy reading, drawing, taking walks outside, listening to music, and playing instruments.
-    </p>
-  </section>
-
+  <br><br><br>
 
   <!-- projects -->
-  <section id="projects">
-    <div id="project_row1" class="d-md-flex">
+  <!-- row 1 -->
+  <div class="projects_row d-md-flex">
+    <!-- card 1 -->
+    <div id="card_container" class="container">
       <div class="card">
-        <img src="images/beepbeep.png" class="card-img-top" alt="beepbeep_screen">
-        <div class="card-body">
-            <h5 class="card-title">BeepBeep I'm Going Places</h5>
-            <p class="card-text">A Fullstack Web Application to help users create and manage vacation schedules.</p>
-            <a href="https://github.com/alam7989/beep-beep" class="btn btn-primary" target="_blank">GitHub Repository</a>
-              
-            <p>
-                <button id="beepbeep_button" class="btn btn-outline" role="button" href="#beepbeep_details" data-bs-toggle="collapse">More Info!</button>
-            </p>
-            <div class="collapse" id="beepbeep_details">
-              More information about beepbeep!
-            </div>
-            
+        <div class="card_front">
+          <img src="images/beepbeep.png" class="card_img"/>
+          <!--<img src="images/beepbeep.png" class="card_img"/>-->
+          <h4>BeepBeep I'm Going Places</h4>
+          <p>A Full Stack Web Application to help users create and manage vacation schedules.</p>
         </div>
-      </div>
-
-      <div class="card">
-        <img src="images/beijing_gourmet.png" class="card-img-top" alt="beijing_gourmet_screen">
-        <div class="card-body">
-            <h5 class="card-title">Beijing Gourmet Website</h5>
-            <p class="card-text">A website for a restaurant, Beijing Gourmet.</p>
-            <a href="https://github.com/alam7989/Beijing-Gourmet" class="btn btn-primary" target="_blank">GitHub Repository</a>
-              
-            <p>
-                <button id="beijing_gourmet_button" class="btn btn-outline" role="button" href="#beijing_gourmet_details" data-bs-toggle="collapse">More Info!</button>
-            </p>
-            <div class="collapse" id="beijing_gourmet_details">
-              More information about beijing_gourmet!
-            </div>
-            
-        </div>
-      </div>
-
-      <div class="card">
-        <img src="images/zotdots.png" class="card-img-top" alt="zotdots_screen">
-        <div class="card-body">
-            <h5 class="card-title">ZotDots</h5>
-            <p class="card-text">A Fullstack Web Application where users can draw on a collaborative canvas.</p>
-            <a href="https://github.com/alam7989/zotdots" class="btn btn-primary" target="_blank">GitHub Repository</a>
-              
-            <p>
-                <button id="zotdots_button" class="btn btn-outline" role="button" href="#zotdots_details" data-bs-toggle="collapse">More Info!</button>
-            </p>
-            <div class="collapse" id="zotdots_details">
-              More information about zotdots!
-            </div>
-            
+        <div class="card_back">
+          <h6>Technologies Used:</h6>
+          <p>Firebase, React Bootstrap, Next.js, REST APIs, SCSS, JSX</p>
+          <ul>
+            <li>Created an account registration and login system using Next.js and React Bootstrap, with user credentials
+              automatically added to a Firebase</li>
+            <li>Integrated Yelp Fusion API and geocoding API to find popular businesses near a user’s current location, a
+              selected location on the map, or via the search bar</li>
+            <li>Implemented functionality for users to add and remove selected activities to and from their planners</li>
+          </ul>
+          <button id="beepbeep_button" class="btn btn-primary" role="button">GitHub Repository</button>
         </div>
       </div>
     </div>
 
-  </section>
+    <!-- card 2 -->
+    <div id="card_container" class="container">
+      <div class="card">
+        <div class="card_front">
+          <img src="images/beijing_gourmet.png" class="card_img"/>
+          <!--<img src="images/beepbeep.png" class="card_img"/>-->
+          <h4>Beijing Gourmet Website</h4>
+          <p>A Full Stack Web Application to help users create and manage vacation schedules.</p>
+        </div>
+        <div class="card_back">
+          <h6>Technologies Used:</h6>
+          <p>Firebase, React Bootstrap, Next.js, REST APIs, SCSS, JSX</p>
+          <ul>
+            <li>Created an account registration and login system using Next.js and React Bootstrap, with user credentials
+              automatically added to a Firebase</li>
+            <li>Integrated Yelp Fusion API and geocoding API to find popular businesses near a user’s current location, a
+              selected location on the map, or via the search bar</li>
+            <li>Implemented functionality for users to add and remove selected activities to and from their planners</li>
+          </ul>
+          <button id="beijing_gourmet_button" class="btn btn-primary" role="button">GitHub Repository</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
-  
+  <!-- row 2 -->
+  <div class="projects_row d-md-flex">
+    <!-- card 1 -->
+    <div id="card_container" class="container">
+      <div class="card">
+        <div class="card_front">
+          <img src="images/zotdots.png" class="card_img"/>
+          <!--<img src="images/beepbeep.png" class="card_img"/>-->
+          <h4>Zotdots</h4>
+          <p>A Full Stack Web Application to help users create and manage vacation schedules.</p>
+        </div>
+        <div class="card_back">
+          <h6>Technologies Used:</h6>
+          <p>Firebase, React Bootstrap, Next.js, REST APIs, SCSS, JSX</p>
+          <ul>
+            <li>Created an account registration and login system using Next.js and React Bootstrap, with user credentials
+              automatically added to a Firebase</li>
+            <li>Integrated Yelp Fusion API and geocoding API to find popular businesses near a user’s current location, a
+              selected location on the map, or via the search bar</li>
+            <li>Implemented functionality for users to add and remove selected activities to and from their planners</li>
+          </ul>
+          <button id="zotdots_button" class="btn btn-primary" role="button">GitHub Repository</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- card 2 -->
+    <div id="card_container" class="container">
+      <div class="card">
+        <div class="card_front">
+          <img src="images/zotracer.png" class="card_img"/>
+          <!--<img src="images/beepbeep.png" class="card_img"/>-->
+          <h4>ZotRacer</h4>
+          <p>A Full Stack Web Application to help users create and manage vacation schedules.</p>
+        </div>
+        <div class="card_back">
+          <h6>Technologies Used:</h6>
+          <p>Firebase, React Bootstrap, Next.js, REST APIs, SCSS, JSX</p>
+          <ul>
+            <li>Created an account registration and login system using Next.js and React Bootstrap, with user credentials
+              automatically added to a Firebase</li>
+            <li>Integrated Yelp Fusion API and geocoding API to find popular businesses near a user’s current location, a
+              selected location on the map, or via the search bar</li>
+            <li>Implemented functionality for users to add and remove selected activities to and from their planners</li>
+          </ul>
+          <button id="zotracer_button" class="btn btn-primary" role="button">GitHub Repository</button>
+        </div>
+      </div>
+    </div>
+  </div>
   
 
   <script src="index.js"></script>
