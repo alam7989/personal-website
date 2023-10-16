@@ -1,5 +1,5 @@
-##These are the assignment points that I believe I earned:
-##I believe that I completed 10/8 of the required HTML, CSS, and advanced features, so I should earn 8/8 points for these requirements:
+**These are the assignment points that I believe I earned:**
+**I believe that I completed 10/8 of the required HTML, CSS, and advanced features, so I should earn 8/8 points for these requirements:
 HTML content
 - At least 1 image, with descriptive alt attribute(s)
   - I added an image of myself, images of the LinkedIn and GitHub logos, an image of my resume, and images of my projects
@@ -25,16 +25,16 @@ Advanced features
   - I added a navigation bar that is always visible at the top of my website
 - A contact form which leverages HTML forms
 
-##I believe I earned 3 points for my website being responsive to different screen sizes
+**I believe I earned 3 points for my website being responsive to different screen sizes
 - I used flexbox and media queries to achieve this
 
-##I believe I earned 1 point for passing all of the validation checks
-##I believe I earned 3 points for embracing the spirit of the assignment
+**I believe I earned 1 point for passing all of the validation checks
+**I believe I earned 3 points for embracing the spirit of the assignment
 
 
-##This assignment took me about 7 hours to complete.
+**This assignment took me about 7 hours to complete.
 
-## Resources that I consulted:
+** Resources that I consulted:
 - https://getbootstrap.com/docs/5.3/getting-started/introduction/
 - https://www.youtube.com/watch?v=4sosXZsdy-s
 - https://www.youtube.com/watch?v=NCLdf661ILE
