@@ -1,5 +1,7 @@
 **These are the assignment points that I believe I earned:**
+
 **I believe that I completed 10/8 of the required HTML, CSS, and advanced features, so I should earn 8/8 points for these requirements:**
+
 HTML content
 - At least 1 image, with descriptive alt attribute(s)
   - I added an image of myself, images of the LinkedIn and GitHub logos, an image of my resume, and images of my projects
