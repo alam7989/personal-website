@@ -31,6 +31,7 @@ Advanced features
 - I used flexbox and media queries to achieve this
 
 **I believe I earned 1 point for passing all of the validation checks**
+
 **I believe I earned 3 points for embracing the spirit of the assignment**
 
 
