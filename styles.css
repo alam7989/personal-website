@@ -9,13 +9,52 @@ css
 body {
   /*height: 100vh;*/
   background: #F5F5F5;;
-  
 }
 
+.btn.btn-primary:hover {
+  background-color: #a3cdf2; /* Change to your desired hover color */
+}
+
+
+/* resume */
+#resume_embed{
+  padding-top:10vh;
+  width: 100vw;
+  height: 100%;
+}
+
+#resume_img{
+  padding-top:10vh;
+  width: 100vw;
+  height: 100%;
+}
+
+/* contact_me */
+#contact_form{
+  margin: 10vh;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #a3cdf2;
+  border-radius: 5px;
+}
+
+
+/* index/home */
 /* intro */
-#intro_container{
-}
-
 #introduction{
   background-color: #E9E9E9; 
   margin-top: 8.5vh;
@@ -72,19 +111,11 @@ body {
   text-align: left;
 }
 
-#resume_embed{
-  padding-top:10vh;
-  width: 100vw;
-  height: 100vh;
-}
+
 
 .color_line{
   /*width: 100%; 
   border-bottom: 1vh solid #a3cdf2;*/
-}
-
-#cl1{
-  
 }
 
 
