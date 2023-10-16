@@ -9,10 +9,41 @@ css
 body {
   /*height: 100vh;*/
   background: #F5F5F5;;
-  color: rgb(211, 211, 211);
+  
 }
 
 /* intro */
+#intro_container{
+}
+
+#introduction{
+  background-color: #E9E9E9; 
+  margin-top: 8.5vh;
+  position: relative;
+}
+
+.deco_triangle {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  position: absolute;
+}
+
+#triangle1{
+  right: 0;
+  top: 0;
+  border-width: 0 30px 30px 0;
+  border-color: transparent #a3cdf2 transparent transparent;
+  
+}
+
+#triangle2{
+  left: 0;
+  bottom: 0;
+  border-width: 30px 0px 0px 30px;
+  border-color: transparent transparent transparent #a3cdf2;
+}
+
 #intro_text {
   justify-content: center;
   text-align: left;
@@ -47,37 +78,25 @@ body {
   height: 100vh;
 }
 
+.color_line{
+  /*width: 100%; 
+  border-bottom: 1vh solid #a3cdf2;*/
+}
+
+#cl1{
+  
+}
+
 
 
 /* projects */
-
-#card_container1{
-  width: 45vw;
-  height: 60vh;
-  display: flex;
-  justify-content: center;
-  /*align-items: center;*/
+#projects_title{
+  /*background-color: #a3cdf2;*/
 }
 
-#card_container2{
+#card_container1, #card_container2, #card_container3, #card_container4{
   width: 45vw;
-  height: 60vh;
-  display: flex;
-  justify-content: center;
-  /*align-items: center;*/
-}
-
-#card_container3{
-  width: 45vw;
-  height: 60vh;
-  display: flex;
-  justify-content: center;
-  /*align-items: center;*/
-}
-
-#card_container4{
-  width: 45vw;
-  height: 60vh;
+  height: 75vh;
   display: flex;
   justify-content: center;
   /*align-items: center;*/
@@ -170,38 +189,15 @@ No media query for `xs` since this is the default in Bootstrap*/
 
   #logo_links {
     text-align: center;
+    justify-self: center;
   }
 
-  #card_container1{
+  #card_container1, #card_container2, #card_container3, #card_container4{
     width: 80vw;
-    height: 65vh;
+    height: 70vh;
     display: flex;
     justify-content: center;
     margin-top: 3vh;
-  }
-
-  #card_container2{
-    width: 45vw;
-    height: 60vh;
-    display: flex;
-    justify-content: center;
-    /*align-items: center;*/
-  }
-
-  #card_container3{
-    width: 45vw;
-    height: 60vh;
-    display: flex;
-    justify-content: center;
-    /*align-items: center;*/
-  }
-
-  #card_container4{
-    width: 45vw;
-    height: 60vh;
-    display: flex;
-    justify-content: center;
-    /*align-items: center;*/
   }
 }
 

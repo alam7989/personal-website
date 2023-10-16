@@ -45,7 +45,7 @@ https://www.youtube.com/watch?v=4sosXZsdy-s
             <a href="#introduction" class="nav-link">Home</a>
           </li>
           <li class="nav-item">
-            <a href="#card_container1" class="nav-link">Projects</a>
+            <a href="#cl1" class="nav-link">Projects</a>
           </li>
           <li class="nav-item">
             <a href="resume.html" class="nav-link">Resume</a>
@@ -56,11 +56,14 @@ https://www.youtube.com/watch?v=4sosXZsdy-s
   </nav>
 
   <!-- introduction -->
-  <section id="introduction" class="text-dark" style="background-color: #E9E9E9; padding-top: 10vh;">
-    <div class="container">
+  <section id="introduction" class="text-dark">
+    <div class="color_line"></div>
+    <div id="intro_container" class="container">
+      <div id="triangle1" class="deco_triangle"></div>
+      <div id="triangle2" class="deco_triangle"></div>
       <div class="d-md-flex">
-        <img id="intro_image" class="img-fluid p-3" src="images/circle_profile_pic.png" alt="profile_picture"/>
-        <div id="intro_text" class="align-self-center d-md-flex flex-column" style="padding-left: 5vw; padding-top: 5vh;">
+        <img id="intro_image" class="img-fluid p-3" src="images/circle_profile_pic.png" alt="profile_picture">
+        <div id="intro_text" class="align-self-center d-md-flex flex-column" style="padding-left: 5vw; padding-top: 5vh; justify-items: center;">
           <h1>Hi, I'm Audrey Lam.</h1>
           <p>
             I'm a Junior studying at the University of California, Irvine.
@@ -68,34 +71,33 @@ https://www.youtube.com/watch?v=4sosXZsdy-s
           </p>
           <div id="logo_links">
             <a href="https://www.linkedin.com/in/audrey-lam/" style="text-decoration: none;">
-              <img class="logo_link" src="images/linkedin_icon.svg" alt="linked_logo"/>
+              <img class="logo_link" src="images/linkedin_icon.svg" alt="linked_logo">
             </a>
             <a href="https://www.linkedin.com/in/audrey-lam/" style="text-decoration: none;">
-              <img class="logo_link" src="images/github_icon.svg" alt="github_logo"/>
+              <img class="logo_link" src="images/github_icon.svg" alt="github_logo">
             </a>
           </div>
         </div>        
       </div>
     </div>
-  </section> 
-
-  <br><br><br>
+  </section>
 
   <!-- projects -->
+  <div id="cl1" class="color_line"></div>
+  <h2>Projects:</h2>
+  
   <!-- row 1 -->
   <div class="projects_row d-md-flex">
     <!-- card 1 -->
     <div id="card_container1" class="container">
       <div class="card">
         <div class="card_front">
-          <img src="images/beepbeep.png" class="card_img"/>
-          <!--<img src="images/beepbeep.png" class="card_img"/>-->
-          <h4>BeepBeep I'm Going Places</h4>
+          <img src="images/beepbeep.png" class="card_img" alt="beepbeep_screen">
+          <h3>BeepBeep I'm Going Places</h3>
           <p>A Full Stack Web Application to help users create and manage vacation schedules.</p>
         </div>
         <div class="card_back">
-          <h6>Technologies Used:</h6>
-          <p>Firebase, React Bootstrap, Next.js, REST APIs, SCSS, JSX</p>
+          <p>Technologies Used: Firebase, React Bootstrap, Next.js, REST APIs, SCSS, JSX</p>
           <ul>
             <li>Created an account registration and login system using Next.js and React Bootstrap, with user credentials
               automatically added to a Firebase</li>
@@ -103,7 +105,7 @@ https://www.youtube.com/watch?v=4sosXZsdy-s
               selected location on the map, or via the search bar</li>
             <li>Implemented functionality for users to add and remove selected activities to and from their planners</li>
           </ul>
-          <button id="beepbeep_button" class="btn btn-primary" role="button">GitHub Repository</button>
+          <a href="https://github.com/alam7989/beep-beep" class="btn btn-primary" target="_blank">GitHub Repository</a>
         </div>
       </div>
     </div>
@@ -112,22 +114,20 @@ https://www.youtube.com/watch?v=4sosXZsdy-s
     <div id="card_container2" class="container">
       <div class="card">
         <div class="card_front">
-          <img src="images/beijing_gourmet.png" class="card_img"/>
-          <!--<img src="images/beepbeep.png" class="card_img"/>-->
-          <h4>Beijing Gourmet Website</h4>
-          <p>A Full Stack Web Application to help users create and manage vacation schedules.</p>
+          <img src="images/beijing_gourmet.png" class="card_img" alt="beijing_gourmet_screen">
+          <h3>Beijing Gourmet Website</h3>
+          <p>A Website for a restaurant, Beijing Gourmet.</p> 
+          <br>
         </div>
         <div class="card_back">
-          <h6>Technologies Used:</h6>
-          <p>Firebase, React Bootstrap, Next.js, REST APIs, SCSS, JSX</p>
+          <p>Technologies Used: HTML, CSS, Figma |</p>
           <ul>
-            <li>Created an account registration and login system using Next.js and React Bootstrap, with user credentials
-              automatically added to a Firebase</li>
-            <li>Integrated Yelp Fusion API and geocoding API to find popular businesses near a user’s current location, a
-              selected location on the map, or via the search bar</li>
-            <li>Implemented functionality for users to add and remove selected activities to and from their planners</li>
+            <li>Used Figma to design an interactive website for a local restaurant to attract potential customers and improve
+              customer accessibility through online restaurant information and menus</li>
+              <li>Leveraged CSS to ensure a responsive website that adapts to various screen sizes</li>
           </ul>
-          <button id="beijing_gourmet_button" class="btn btn-primary" role="button">GitHub Repository</button>
+          <a href="https://github.com/alam7989/Beijing-Gourmet" class="btn btn-primary" target="_blank">GitHub Repository</a>
+          <a href="https://alam7989.github.io/Beijing-Gourmet/" class="btn btn-primary" target="_blank">Website</a>
         </div>
       </div>
     </div>
@@ -139,22 +139,18 @@ https://www.youtube.com/watch?v=4sosXZsdy-s
     <div id="card_container3" class="container">
       <div class="card">
         <div class="card_front">
-          <img src="images/zotdots.png" class="card_img"/>
-          <!--<img src="images/beepbeep.png" class="card_img"/>-->
-          <h4>Zotdots</h4>
-          <p>A Full Stack Web Application to help users create and manage vacation schedules.</p>
+          <img src="images/zotdots.png" class="card_img" alt="zotdots_screen">
+          <h3>Zotdots</h3>
+          <p>A Full Stack Web Application to allow users to draw on a collaborative canvas that updates in real time.</p>
         </div>
         <div class="card_back">
-          <h6>Technologies Used:</h6>
-          <p>Firebase, React Bootstrap, Next.js, REST APIs, SCSS, JSX</p>
+          <p>Technologies Used: Python (Flask, SQLAlchemy), HTML, Javascript, CSS</p>
           <ul>
-            <li>Created an account registration and login system using Next.js and React Bootstrap, with user credentials
-              automatically added to a Firebase</li>
-            <li>Integrated Yelp Fusion API and geocoding API to find popular businesses near a user’s current location, a
-              selected location on the map, or via the search bar</li>
-            <li>Implemented functionality for users to add and remove selected activities to and from their planners</li>
+            <li>Created and styled front end of the application using HTML and CSS</li>
+            <li>Achieved real-time updates to the canvas by creating a database with SQLAlchemy and using Javascript to save
+              information to it after each edit</li>
           </ul>
-          <button id="zotdots_button" class="btn btn-primary" role="button">GitHub Repository</button>
+          <a href="https://github.com/alam7989/zotdots" class="btn btn-primary" target="_blank">GitHub Repository</a>
         </div>
       </div>
     </div>
@@ -163,22 +159,18 @@ https://www.youtube.com/watch?v=4sosXZsdy-s
     <div id="card_container4" class="container">
       <div class="card">
         <div class="card_front">
-          <img src="images/zotracer.png" class="card_img"/>
-          <!--<img src="images/beepbeep.png" class="card_img"/>-->
-          <h4>ZotRacer</h4>
-          <p>A Full Stack Web Application to help users create and manage vacation schedules.</p>
+          <img src="images/zotracer.png" class="card_img" alt="zotracer_screen">
+          <h3>ZotRacer</h3>
+          <p>An interactive educational tool to increase student engagement while studying.</p> 
+          <br>
         </div>
         <div class="card_back">
-          <h6>Technologies Used:</h6>
-          <p>Firebase, React Bootstrap, Next.js, REST APIs, SCSS, JSX</p>
+          <p>Technologies Used: HTML, CSS, Javascript</p>
           <ul>
-            <li>Created an account registration and login system using Next.js and React Bootstrap, with user credentials
-              automatically added to a Firebase</li>
-            <li>Integrated Yelp Fusion API and geocoding API to find popular businesses near a user’s current location, a
-              selected location on the map, or via the search bar</li>
-            <li>Implemented functionality for users to add and remove selected activities to and from their planners</li>
+            <li>Created and styled front end elements using HTML and CSS</li>
+            <li>Implemented the logic behind dynamic on-screen elements that react to user actions with Javascript</li>
           </ul>
-          <button id="zotracer_button" class="btn btn-primary" role="button">GitHub Repository</button>
+          <a href="https://github.com/alam7989/Zot-Racer" class="btn btn-primary" target="_blank">GitHub Repository</a>
         </div>
       </div>
     </div>
