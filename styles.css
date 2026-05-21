@@ -29,6 +29,12 @@ body {
   height: 100%;
 }
 
+#resume_iframe{
+  margin-top:10vh;
+  width: 100vw;
+  height: 100vh;
+}
+
 /* contact_me */
 #contact_form{
   margin: 10vh;
